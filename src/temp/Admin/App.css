@@ -1,0 +1,75 @@
+.borderLine{
+    border: 2rem white red;
+    padding: 1.5rem;
+  }
+
+
+  .login-box{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+  
+  }
+  .image-underbg2{
+    background: white;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .image-underLogin{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .1rem;
+  
+  }
+
+  .login-bg {
+    background-color: 'red'!important;
+  }
+
+  .logoR{
+    max-width: 5rem;
+    max-height: 20rem;
+  }
+
+  .headeri{
+    background-color: #222222;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  .sidebar {
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    transition: all .5se;
+    transform:translateX(-30rem);
+    width: 30rem;
+}
+
+.sidebar.open{
+    transform: translateX(0);
+}
+
+.sidebar-close{
+    border-radius: 50%;
+    border: .1rem white solid;
+    color: red;
+    font-size: 2.4rem;
+    cursor: pointer;
+    height: 3rem;
+    position: absolute;
+    right: .5rem;
+    top: 1.5rem;
+}
+
